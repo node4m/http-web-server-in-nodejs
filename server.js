@@ -5,5 +5,5 @@ server.on('request', function(req, res) {
 	res.write('hello world');
 	res.end();
 })
-server.listen(3000, '192.168.11.5');
+server.listen(3000, '192.168.100.9');
 console.log("server running ...");
